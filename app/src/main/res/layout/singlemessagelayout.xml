@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/messageshape"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:text="Akhila"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/usernameText"
+
+        />
+
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:text="Hello friends"
+        android:textColor="#986761"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9:15 pm"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        />
+
+</LinearLayout>

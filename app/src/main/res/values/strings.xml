@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AkkisMessager</string>
+    <string name="title_activity_actionbars">ActionbarsActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_google_maps">GoogleMapsActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_menu_activity">MenusActivity</string>
+
+</resources>

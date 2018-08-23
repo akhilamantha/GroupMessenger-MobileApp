@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.manikesh.akkismessager.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_above="@+id/linerLayout"
+
+        android:id="@+id/messageRec"
+        >
+
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_alignParentBottom="true"
+      android:id="@+id/linerLayout"
+      >
+      <Button
+          android:id="@+id/backbuttonid"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+
+
+          android:text="Back"
+          />
+
+      <EditText
+          android:layout_width="199dp"
+          android:layout_height="wrap_content"
+          android:id="@+id/editMessageE"/>
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:onClick="sendmessageclick"
+          android:text="send"
+          android:textColor="@color/colorAccent"
+
+          />
+
+
+
+  </LinearLayout>
+
+
+
+</RelativeLayout>

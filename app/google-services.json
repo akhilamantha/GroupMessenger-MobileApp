@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "739951716907",
+    "firebase_url": "https://akkismessager.firebaseio.com",
+    "project_id": "akkismessager",
+    "storage_bucket": "akkismessager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739951716907:android:31e6b94e9d4f3240",
+        "android_client_info": {
+          "package_name": "com.example.manikesh.akkismessager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739951716907-12b7ctd0g7ta94bm81lplk2v7e9bka50.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.manikesh.akkismessager",
+            "certificate_hash": "f6da60c82a495e1d8b44862584caa64d04340b4a"
+          }
+        },
+        {
+          "client_id": "739951716907-obt9n6p3c8iq0hokk2eo7ds654o40tc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5S6hIWEHQ6ywQnKOKYXU8J4HOY6PByqg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739951716907-obt9n6p3c8iq0hokk2eo7ds654o40tc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

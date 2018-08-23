@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.manikesh.akkismessager.MenusActivity">
+
+    <item android:id="@+id/id1"
+        android:title="Search"/>
+    <item android:id="@+id/id2"
+        android:title="Bookmark"/>
+    <item android:id="@+id/id3"
+        android:title="Help"/>
+
+</menu>

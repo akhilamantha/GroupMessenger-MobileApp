@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.manikesh.akkismessager.MenusActivity">>
+
+<item android:title="Select All"
+      android:id="@+id/contextOption1"/>
+    <item android:title="Copy"
+        android:id="@+id/contextOption2"/>
+    <item android:title="Cut"
+        android:id="@+id/contextOption3"/>
+
+
+</menu>
